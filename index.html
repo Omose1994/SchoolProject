@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>  -->
+
+    
+    </head>
+    <body class="container">
+
+        <h1 class="my-4 text-center text-success"><b> Welcome to Lasa School District <span class="badge bg-secondary"></span></b></h1> <!--br><br-->
+    
+        <div id="instructBox" class="p-3 alert alert-primary">
+            <h4> Please see the information below and instructions on how to select and delete classes. <br> Registeration ends soon!</h4> 
+            <p>Please enter the school you desire to attend in the text box provide, followed by the subject you wish to attend, along with your desired professor.  Please keep in mind we will do the best we can to honor your first choice, but it is a first come first serve basis.  Once a class has filled with a particular professor we <span class="bold">MAY</span> be unable to satisfy your request and you will be contacted to make an alternate selection.<span class="bold">(Thank you in advance for your understanding)</span> </p> <!-- we can change this if it doesnt meet with what your thoughts on this particular app are, I'm going off of how I envision it...just fyi  also we may tweek the wording a bit if we use buttons instead of text boxes, if that makes sense.-->
+
+        </div>
+    
+        <br><br>
+
+    <div id="School" class="jumbotron">
+        <h2> Lasa School District</h2> <br>
+        <h5>(Enter your school of choice)</h5>
+        <input type="text" id="new-school-name" class="mb-3 form-control"> 
+        <button id="create-new-school" class="mb-4 btn btn-primary form-control"> Submit </button>
+    </div>
+
+    <div id="app">
+
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="index.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    
+
+</body>
+</html>
